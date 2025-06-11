@@ -6,7 +6,7 @@ function Nav() {
   return (
     <div>
         <nav>
-            <ul className='flex justify-center mb-6'>
+            <ul className='flex justify-center gap-[20px]'>
                 {menuItems.map((e)=>{
                     return(
                         <NavItem key={e.id} {...e}/>

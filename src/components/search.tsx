@@ -28,11 +28,11 @@ function Search() {
 
     return (
         <div>
-            <div>
+            <div className='flex justify-center'>
                 <input
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="inp"
+                    className="inp pl-1"
                     type="text"
                     placeholder="Search..."
                 />
